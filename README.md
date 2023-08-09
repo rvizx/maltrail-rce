@@ -6,7 +6,7 @@ MalTrail - Command Injection / RCE PoC Exploit
 
 MalTrail version `0.53` doesn't have proper validation in `username` parameter, which leads to unauthenticated command injection.
 
-# Usage
+# usage
 
 ```
 git clone https://github.com/rvizx/maltrail-rce
